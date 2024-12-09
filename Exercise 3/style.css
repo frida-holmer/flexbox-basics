@@ -1,0 +1,52 @@
+.flex-container {
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+}
+
+
+/* Övning 1 */
+/* .flex-container {
+    justify-content: space-between;
+}
+.item-1 {
+    align-self: flex-end;
+}
+.item-3 {
+    display: none;
+} */
+/* Slut på Övning 1 */
+
+
+/* Övning 2 */
+/* .flex-container {
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.item-3 {
+    display: none;
+} */
+/* Slut på Övning 2 */
+
+
+/* Övning 3 */
+.flex-container {
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.item-2 {
+    align-self: center;
+}
+.item-3 {
+    align-self: flex-start;
+}
+/* Slut på Övning 3 */
+
+
+div {
+    width: 10rem;
+    height: 10rem;
+    background-color: white;
+}

@@ -1,0 +1,50 @@
+/* Top left corner by default */
+.flex-container {
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+}
+
+/* Top right corner */
+/* .flex-container {
+    justify-content: flex-end;
+} */
+
+/* Bottom right corner */
+/* .flex-container {
+    justify-content: flex-end;
+    align-items: flex-end;
+} */
+
+/* Bottom left corner */
+/* .flex-container {
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+} */
+
+/* Centered */
+/* .flex-container {
+    justify-content: center;
+    align-items: center;
+} */
+
+/* Centered bottom with margin */
+/* .flex-container {
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 0 5rem 0;
+} */
+
+/* Top right corner with margin */
+.flex-container {
+    justify-content: flex-end;
+    margin: 5rem;
+}
+
+div {
+    width: 10rem;
+    height: 10rem;
+    background-color: white;
+    /* margin-block-end: 5rem; Alt. margin from bottom */
+}
